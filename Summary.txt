@@ -1,0 +1,19 @@
+-- JUnit 5--
+composed of 3 projects
+
+1. JUnit Platform: provides api for test to launch from console, ide, or build tools and also for developing a testing framework
+Jars inside
+ - junit-platform-commons:
+ - junit-platform-console:
+ - junit-platform-engine:
+ - junit-platform-launcher:
+ etc...
+2. JUnit Jupiter: for writing tests and extensions also provides platform for jupiter based tests on the engine
+ jars inside
+  - junit-jupiter-api
+  - junit-jupiter-engine
+  - junit-jupiter-params
+
+3. JUnit Vintage: for running older versions of JUnit
+ contains:
+ - junit-vintage-engine
