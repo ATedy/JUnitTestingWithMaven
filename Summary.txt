@@ -17,3 +17,9 @@ Jars inside
 3. JUnit Vintage: for running older versions of JUnit
  contains:
  - junit-vintage-engine
+
+ - BDD Naming Style
+
+  Arrange - Given
+  Act  - When
+  Assert - Then
